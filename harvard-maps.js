@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 
   harvard_baseoverlay = L.tileLayer('http://hh.worldmap.harvard.edu/registry/hypermap/layer/6016cc07-bf99-49d2-958c-a315caeaab5d/map/wmts/jewish_settlement_russia_1816/default_grid/{z}/{x}/{y}.png', {
-    attribution: 'Historical map tiles by ???'
+    attribution: 'Historical map tiles by <a href="http://madmappers.com/">MadMappers</a>.'
   }).addTo(map);
 
   var style1 = {
@@ -61,8 +61,8 @@ $(document).ready(function() {
   var geojsonLayer2 = new L.GeoJSON.AJAX("geojson/harvard/vitbesk_mogllev_village_expulsion_1823_0yb.geojson", { style: style3 });
   var geojsonLayer3 = new L.GeoJSON.AJAX("geojson/harvard/chernigov_village_expulsion_1825_6nw.geojson", { style: style3 });
   // The emerging Pale of Settlement.
-  var geojsonLayer4 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1818_a5r.geojson", { style: style6 });
-  var geojsonLayer5 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1809_1815_jpa.geojson", { style: style1 }).addTo(map);
+  var geojsonLayer4 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1818_a5r.geojson", { style: style6 }).addTo(map);
+  var geojsonLayer5 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1809_1815_jpa.geojson", { style: style1 });
   var geojsonLayer6 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1807_51a.geojson", { style: style6 });
   var geojsonLayer7 = new L.GeoJSON.AJAX("geojson/harvard/pale_of_settlement_1804_y3v.geojson", { style: style6 });
   var geojsonLayer8 = new L.GeoJSON.AJAX("geojson/harvard/emerging_pale_1800_lxe.geojson", { style: style6 });
@@ -91,7 +91,7 @@ $(document).ready(function() {
 
   var overlayMaps = {
     "General": {
-      "Harvard Overlay": harvard_baseoverlay
+      "Podrobnaia karta Rossijskoj Imperii 1804-1816": harvard_baseoverlay
     },
     "Commonwealth of Polish-Lithuanian": {
       "Polish-Lithuanian 1667-1772": geojsonLayer21,
@@ -129,7 +129,7 @@ $(document).ready(function() {
   L.control.groupedLayers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
   // Really hacky opacity slider.
-  $("span:contains('Harvard Overlay')").html(' Harvard Overlay<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="harvard_baseoverlay.setOpacity(this.value)">');
+  $("span:contains('Podrobnaia karta Rossijskoj Imperii 1804-1816')").html(' Podrobnaia karta Rossijskoj Imperii 1804-1816<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="harvard_baseoverlay.setOpacity(this.value)">');
 
   $('.leaflet-control-layers').hide();
   $('.leaflet-control-layers').css('top','30px');
