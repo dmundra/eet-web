@@ -77,7 +77,7 @@ $(document).ready(function() {
 
   var overlayMaps = {
     "General": {
-      "General-Post & Strassen-Karte des Konigreichs Boehmen 1889": bohemia_baseoverlay,
+      "General Karte Konigreiches Bohmen 1862": bohemia_baseoverlay,
     },
     "Jews in Bohemia": {
       "Jewish communities 1900": geojsonLayer1,
