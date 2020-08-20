@@ -21,8 +21,8 @@ $(document).ready(function() {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>'
   });
 
-  bohemia_baseoverlay = L.tileLayer('layerdata/bohemia/{z}/{x}/{-y}.png', {
-    attribution: 'Historical map tiles by <a href="https://rcin.org.pl/dlibra/publication/edition/57001?id=57001">https://rcin.org.pl/dlibra/publication/edition/57001?id=57001</a>'
+  bohemia_baseoverlay = L.tileLayer('layerdata/bohemia2/{z}/{x}/{-y}.png', {
+    attribution: 'Historical map tiles by <a href="http://www.digitalniknihovna.cz/mzk/view/uuid:de7b879c-d5ac-4152-9815-ccf03871bf18?page=uuid:64a0b0a1-c0c5-4e5f-b832-5a9291f263bd">http://www.digitalniknihovna.cz/mzk/view/uuid:de7b879c-d5ac-4152-9815-ccf03871bf18?page=uuid:64a0b0a1-c0c5-4e5f-b832-5a9291f263bd</a>'
   }).addTo(map);
 
   var style1 = {
@@ -62,7 +62,7 @@ $(document).ready(function() {
     shadowSize: [41, 41]
   });
 
-  var geojsonLayer1 = new L.GeoJSON.AJAX("geojson/jewish_communities_of_bohemia_1900.geojson", {}).addTo(map);
+  var geojsonLayer1 = new L.GeoJSON.AJAX("geojson/jewish_communities_of_bohemia_1900_2.geojson", {}).addTo(map);
   /*var geojsonLayer2 = new L.GeoJSON.AJAX("geojson/jewish_communities_of_nothern_hungary.geojson", {
     pointToLayer: function(geoJsonPoint, latlng) {
       return L.marker(latlng, { icon: yellowIcon });
