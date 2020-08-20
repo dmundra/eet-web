@@ -88,6 +88,6 @@ $(document).ready(function() {
   L.control.groupedLayers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
   // Really hacky opacity slider.
-  $("span:contains('General-Post & Strassen-Karte des Konigreichs Boehmen 1889')").html(' General-Post & Strassen-Karte des Konigreichs Boehmen 1889<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="bohemia_baseoverlay.setOpacity(this.value)">');
+  $("span:contains('General Karte Konigreiches Bohmen 1862')").html(' General Karte Konigreiches Bohmen 1862<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="bohemia_baseoverlay.setOpacity(this.value)">');
 
 });
