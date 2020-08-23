@@ -3,7 +3,7 @@ var bohemia_baseoverlay = null;
 $(document).ready(function() {
   // Initialize the map on the "map" div with a given center and zoom.
   var map = L.map('map', {
-    center: [49.792, 16.210],
+    center: [52.916, 22.698],
     zoom: 7
   });
 
