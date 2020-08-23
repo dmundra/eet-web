@@ -1,9 +1,9 @@
-var bohemia_baseoverlay = null;
+var congresspoland_baseoverlay = null;
 
 $(document).ready(function() {
   // Initialize the map on the "map" div with a given center and zoom.
   var map = L.map('map', {
-    center: [52.916, 22.698],
+    center: [52.593, 22.698],
     zoom: 7
   });
 
@@ -72,7 +72,7 @@ $(document).ready(function() {
 
   var overlayMaps = {
     "General": {
-      "Base": congress_baseoverlay,
+      "Base": congresspoland_baseoverlay,
     },
     "Jews in Poland": {
       "Jewish communities of Congress Poland": geojsonLayer1,
@@ -82,6 +82,6 @@ $(document).ready(function() {
   L.control.groupedLayers(baseMaps, overlayMaps, {collapsed:false}).addTo(map);
 
   // Really hacky opacity slider.
-  $("span:contains('Base')").html(' Base<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="bohemia_baseoverlay.setOpacity(this.value)">');
+  $("span:contains('Base')").html(' Base<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="congresspoland_baseoverlay.setOpacity(this.value)">');
 
 });
