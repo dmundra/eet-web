@@ -391,8 +391,6 @@
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.801886966985435, 52.671479133678453 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 20.191493192873885, 52.390947780316765 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.178902754302431, 52.84611657965263 ] } },
-{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.170223407686105, 52.920204673938436 ] } },
-{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.42192445955958, 52.896300375076578 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.317772300163657, 52.643624333313326 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 18.770973463335075, 53.029644961413901 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.056266801186556, 53.106609841594469 ] } },
@@ -570,6 +568,13 @@
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 23.172140545555369, 54.856948573661207 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 22.806643615743582, 55.07610648947184 ] } },
 { "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 21.265019877612204, 52.111945204436807 ] } },
-{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 20.804371592282109, 52.16772222606231 ] } }
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 20.804371592282109, 52.16772222606231 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 21.900842290622933, 52.918899266657448 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 22.082445561104119, 52.922856344910379 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 22.120377520398588, 52.75668826573925 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 23.677063794020913, 54.530079979822183 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.119990198009575, 52.91295945457 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.353292924231507, 52.871070012144799 ] } },
+{ "type": "Feature", "properties": { "LAYER": "Unknown Point Feature" }, "geometry": { "type": "Point", "coordinates": [ 19.893564927598312, 51.360359815073728 ] } }
 ]
 }
