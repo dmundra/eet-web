@@ -93,7 +93,7 @@ $(document).ready(function() {
     "General": {
       "Podrobnaia karta Rossijskoj Imperii 1804-1816": harvard_baseoverlay
     },
-    "Commonwealth of Polish-Lithuanian": {
+    "Commonwealth of Poland-Lithuania": {
       "Polish-Lithuanian 1667-1772": geojsonLayer21,
     },
     "Partitions of Poland-Lithuania": {
