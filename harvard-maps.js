@@ -80,7 +80,7 @@ $(document).ready(function() {
   var geojsonLayer18 = new L.GeoJSON.AJAX("geojson/harvard/third_russian_partition_of_poland_lithua_dfa.geojson", { style: style2 });
   var geojsonLayer19 = new L.GeoJSON.AJAX("geojson/harvard/second_russian_partition_of_poland_lithu_eze.geojson", { style: style2 });
   var geojsonLayer20 = new L.GeoJSON.AJAX("geojson/harvard/first_russian_partition_of_poland_lithua_duv.geojson", { style: style2 });
-  // Commonwealth of Polish-Lithuanian
+  // Commonwealth of Poland-Lithuania
   var geojsonLayer21 = new L.GeoJSON.AJAX("geojson/harvard/polish_lithuanian_commonwealth_1667_1772_428.geojson", { style: style7 });
 
   var baseMaps = {
@@ -94,7 +94,7 @@ $(document).ready(function() {
       "Podrobnaia karta Rossijskoj Imperii 1804-1816": harvard_baseoverlay
     },
     "Commonwealth of Poland-Lithuania": {
-      "Polish-Lithuanian 1667-1772": geojsonLayer21,
+      "Poland-Lithuania 1667-1772": geojsonLayer21,
     },
     "Partitions of Poland-Lithuania": {
       "1st. Russian partition 1772": geojsonLayer20,
