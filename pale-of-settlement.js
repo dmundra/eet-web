@@ -3,7 +3,7 @@ var paleofsettlement_baseoverlay = null;
 $(document).ready(function() {
   // Initialize the map on the "map" div with a given center and zoom.
   var map = L.map('map', {
-    center: [52.593, 22.698],
+    center: [50.0642, 27.2656],
     zoom: 7
   });
 
