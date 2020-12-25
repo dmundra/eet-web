@@ -90,4 +90,11 @@ $(document).ready(function() {
   // Really hacky opacity slider.
   $("span:contains('Galizien und Nordost-Ungarn, Carl Flemming ~ 1916')").html(' Galizien und Nordost-Ungarn, Carl Flemming ~ 1916<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="galizienundnordostungarn_baseoverlay.setOpacity(this.value)">');
 
+  $('.leaflet-control-layers').hide();
+  $('.leaflet-control-layers').css('top','30px');
+
+  btn.onclick = function() {
+    $('.leaflet-control-layers').toggle();
+  }
+
 });

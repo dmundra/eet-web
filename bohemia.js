@@ -90,4 +90,11 @@ $(document).ready(function() {
   // Really hacky opacity slider.
   $("span:contains('General Karte Konigreiches Bohmen 1862')").html(' General Karte Konigreiches Bohmen 1862<br/><input id="slide" type="range" min="0" max="1" step="0.1" value="1.0" oninput="bohemia_baseoverlay.setOpacity(this.value)">');
 
+  $('.leaflet-control-layers').hide();
+  $('.leaflet-control-layers').css('top','30px');
+
+  btn.onclick = function() {
+    $('.leaflet-control-layers').toggle();
+  }
+
 });
