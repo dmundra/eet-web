@@ -75,6 +75,7 @@ $(document).ready(function() {
   var geojsonLayer17 = new L.GeoJSON.AJAX("geojson/pale_of_settlement_1815_1818_fu4.json", { style: style1 });
   var geojsonLayer18 = new L.GeoJSON.AJAX("geojson/pale_of_settlement_1818_myx.json", { style: style1 }).addTo(map);
   var geojsonLayer19 = new L.GeoJSON.AJAX("geojson/congress_poland_1815_0pc.json", { style: style3 }).addTo(map);
+  var geojsonLayer20 = new L.GeoJSON.AJAX("geojson/pale_of_settlement_1825.geojson", { style: style3 }).addTo(map);
 
   var baseMaps = {
     "Stamen Toner": stamen_toner,
@@ -111,6 +112,7 @@ $(document).ready(function() {
       "Pale of Settlement 1809-1815": geojsonLayer2,
       "Pale of Settlement 1815-1818": geojsonLayer17,
       "Pale of Settlement 1818": geojsonLayer18,
+      "Pale of Settlement 1825": geojsonLayer20,
     },
     "Towns of the Pale of Settlement": {
       "County Administrative Centers": geojsonLayer16,	
